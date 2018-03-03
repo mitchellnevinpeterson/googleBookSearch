@@ -1,0 +1,25 @@
+/*making the button appear below the input*/
+button {
+	display: block!important;
+	margin: 15px auto!important;
+}
+/*adding some margin to the divs holding the book info*/
+.col-sm-4 {
+	margin-top: 15px;
+}
+/*changing the size of the input*/
+input {
+	width: 250px!important;
+	margin: auto;
+}
+/*adding a background to the body of the webpage*/
+body {
+	background-image: url("../img/oldPaper.jpeg");
+	background-size: auto;
+}
+/*changing the font and color of the h1 header*/
+h1 {
+	color: #4d3319;
+	text-shadow: 3px 2px 2px #cc9900;
+	font-family: 'La Belle Aurore', cursive;
+}
