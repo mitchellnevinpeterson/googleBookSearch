@@ -15,7 +15,7 @@ function bookSearch() {
 				results.appendChild(newCol)
 				results.getElementsByTagName("div")[i].innerHTML += "<h3>" + data.items[i].volumeInfo.title + "</h3>"
 				console.log(data.items)
-				results.getElementsByTagName("div")[i].innerHTML += "<h4>" + data.items[i].volumeInfo.authors[0] + "</h4>"
+				results.getElementsByTagName("div")[i].innerHTML += "<h4>" + "Author: " + data.items[i].volumeInfo.authors[0] + "</h4>"
 				results.getElementsByTagName("div")[i].innerHTML += "<img>"
 				document.getElementsByTagName("img")[i].setAttribute("src", data.items[i].volumeInfo.imageLinks.thumbnail)	
 			}

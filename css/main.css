@@ -5,7 +5,12 @@ button {
 }
 /*adding some margin to the divs holding the book info*/
 .col-sm-4 {
-	margin-top: 15px;
+	margin: 15px 0px;
+}
+/*Adding some margin to the img*/
+img {
+	margin-bottom: 15px;
+	border: 1px solid #000;
 }
 /*changing the size of the input*/
 input {
@@ -22,4 +27,15 @@ h1 {
 	color: #4d3319;
 	text-shadow: 3px 2px 2px #cc9900;
 	font-family: 'La Belle Aurore', cursive;
+}
+/*changing the h3 and h4 color and shadow*/
+h4 {
+	font-family: 'Bangers', cursive;
+}
+h3 {
+	font-family: 'Permanent Marker', cursive;
+	text-shadow: 2px 1px 1px #cc9900;
+	padding: 5px;
+	border: 1px solid #000;
+	border-radius: 10px;
 }
